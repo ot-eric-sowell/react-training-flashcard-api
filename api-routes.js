@@ -27,8 +27,10 @@ function addSampleData() {
     ]
   };
 
-  sets[uuid.v4()] = {
-    id: uuid.v4(),
+  const secondSetId = uuid.v4();
+
+  sets[secondSetId] = {
+    id: secondSetId,
     name: 'The Seleucid Dynasty',
     description: 'The first five, because who doesn\'t want to learn about those guys?',
     cards: [
