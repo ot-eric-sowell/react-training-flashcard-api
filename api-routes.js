@@ -27,6 +27,19 @@ function addSampleData() {
     ]
   };
 
+  sets[uuid.v4()] = {
+    id: uuid.v4(),
+    name: 'The Seleucid Dynasty',
+    description: 'The first five, because who doesn\'t want to learn about those guys?',
+    cards: [
+      { id: '9c1d8d32-5855-44d2-a1ce-af75b6f637d2', correctCount: 6, incorrectCount: 3, front: 'Seleucus I Nicator', back: '306-281 BC' },
+      { id: '29d34e06-0c5b-4661-bd98-f672f67f3bd0', correctCount: 6, incorrectCount: 3, front: 'Antiochus I Soter', back: '281-261 BC' },
+      { id: 'c64a9960-049c-4a58-8cd6-e06f8021dbf5', correctCount: 6, incorrectCount: 3, front: 'Antiochus II Theos', back: '261-246 BC' },
+      { id: '7789ca00-fe3c-48c9-93e6-809118b3e27d', correctCount: 6, incorrectCount: 3, front: 'Seleucus II Callinicus', back: '246-225 BC' },
+      { id: '1905bef5-fdf9-4358-ab7c-b36fe4f5d0cd', correctCount: 6, incorrectCount: 3, front: 'Seleucus III Ceraunus', back: '225-223 BC' },
+    ]
+  }
+
 }
 
 //comment this out to not have sample data...obviously.
